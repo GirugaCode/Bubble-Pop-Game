@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		285DF8FF215442A2008A9DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DF8FE215442A2008A9DCD /* AppDelegate.swift */; };
-		285DF901215442A2008A9DCD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 285DF900215442A2008A9DCD /* GameScene.sks */; };
-		285DF903215442A2008A9DCD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 285DF902215442A2008A9DCD /* Actions.sks */; };
 		285DF905215442A2008A9DCD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DF904215442A2008A9DCD /* GameScene.swift */; };
 		285DF907215442A2008A9DCD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DF906215442A2008A9DCD /* GameViewController.swift */; };
 		285DF90A215442A2008A9DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285DF908215442A2008A9DCD /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		285DF8FB215442A2008A9DCD /* pop-the-bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pop-the-bubble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		285DF8FE215442A2008A9DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		285DF900215442A2008A9DCD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		285DF902215442A2008A9DCD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		285DF904215442A2008A9DCD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		285DF906215442A2008A9DCD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		285DF909215442A2008A9DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				285DF8FE215442A2008A9DCD /* AppDelegate.swift */,
-				285DF900215442A2008A9DCD /* GameScene.sks */,
-				285DF902215442A2008A9DCD /* Actions.sks */,
 				285DF904215442A2008A9DCD /* GameScene.swift */,
 				285DF906215442A2008A9DCD /* GameViewController.swift */,
 				285DF908215442A2008A9DCD /* Main.storyboard */,
@@ -105,6 +99,7 @@
 				TargetAttributes = {
 					285DF8FA215442A2008A9DCD = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -132,10 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				285DF90A215442A2008A9DCD /* Main.storyboard in Resources */,
-				285DF901215442A2008A9DCD /* GameScene.sks in Resources */,
 				285DF90C215442A3008A9DCD /* Assets.xcassets in Resources */,
 				285DF90F215442A3008A9DCD /* LaunchScreen.storyboard in Resources */,
-				285DF903215442A2008A9DCD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +294,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.pop-the-bubble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -319,7 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanNguyen.pop-the-bubble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
